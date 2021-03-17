@@ -36,7 +36,7 @@ function keyInObjectArray(objArray, keyString) {
   let found = false;
 
   objArray.forEach(function (obj) {
-      if (obj[keyString] !== undefine) {
+      if (obj[keyString] !== undefined) {
         found = true;
       }
   })
